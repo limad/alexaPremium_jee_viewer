@@ -1,0 +1,21 @@
+{
+  "type": "Alexa.Presentation.HTML.Start",
+  "data": {
+    "someKey": "Initial start up information",
+    "hintSource": "hello"
+  },
+  "request": {
+    "uri": "https://www.google.com/",
+    "method": "GET"
+  },
+  "configuration": {
+    "timeoutInSeconds": 300
+  },
+  "transformers": [
+    {
+      "inputPath": "hintSource",
+      "outputName": "hint",
+      "transformer": "textToHint"
+    }
+  ]
+}

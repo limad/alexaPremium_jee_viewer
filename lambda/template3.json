@@ -1,0 +1,21 @@
+{
+  "type": "APL",
+  "version": "2024.3",
+  "theme": "dark",
+  "import": [
+    {
+      "name": "alexa-layouts",
+      "version": "1.7.0"
+    }
+  ],
+  "mainTemplate": {
+    "items": [
+      {
+        "type": "AlexaHeadline",
+        "backgroundColor": "@colorTeal800",
+        "primaryText": "Hello World!",
+        "secondaryText": "Welcome to Alexa Presentation Language (APL)!"
+      }
+    ]
+  }
+}
